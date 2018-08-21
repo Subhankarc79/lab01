@@ -10,9 +10,9 @@ spring:
       ddl-auto: update
       
   datasource:
-    url: "jdbc:mysql://10.200.30.37:3306/cf_089d7116_cbae_4e6e_a7bb_7f5e6168e965"
-    username: "ZmMLRcf4jAjdUfKO"
-    password: "jDtc1dQorohk0AAd"
+    url: "jdbc:mysql://x.x.x.x:3306/cf_089d7116_xxxxxxxxxxxx"
+    username: "user"
+    password: "pass"
     initialization-mode: always
         #cloud: 
       #config: 
