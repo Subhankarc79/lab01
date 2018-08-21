@@ -1,0 +1,15 @@
+---
+applications:
+- name: cloud-native-spring-lab02
+  #buildpack: java_buildpack
+  random-route: true
+  memory: 768M
+  timeout: 180 # to give time for the data to import
+  # Before Lab03
+  # path: target/cloud-native-spring-0.0.1-SNAPSHOT.jar
+  # For Lab03
+  path: target/cloud-native-spring-0.0.1-SNAPSHOT-exec.jar
+  services: 
+      - my_db_svc
+  env:
+    JAVA_OPTS: -Djava.security.egd=file:///dev/urandom
