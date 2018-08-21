@@ -11,5 +11,6 @@ applications:
   path: target/cloud-native-spring-0.0.1-SNAPSHOT-exec.jar
   services: 
       - my_db_svc
+      - my-logs
   env:
     JAVA_OPTS: -Djava.security.egd=file:///dev/urandom
